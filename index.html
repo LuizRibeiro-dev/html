@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- Definição: Declaração do tipo de documento.
+Função: Informa ao navegador que o documento é escrito em HTML5, a versão mais recente do HTML. Isso garante que o navegador renderize o conteúdo corretamente usando o padrão atual. -->
+
+
+<html lang="pt-br">
+<!-- Definição: A tag <html> é a raiz de qualquer documento HTML.
+Função: Tudo o que está dentro desta tag faz parte do documento HTML.
+Atributo lang: Define o idioma principal do conteúdo do documento. pt-br indica que o conteúdo está em português do Brasil. Isso melhora a acessibilidade e a indexação por mecanismos de busca, além de auxiliar leitores de tela. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Portfólio">
+    <meta name="author" content="Generation Brasil">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml" />
+    <title>Universe</title>
+</head>
+<!--Definição: Contém metadados sobre o documento, como informações sobre codificação de caracteres, título, links para arquivos de estilos e scripts.
+Função: Os metadados dentro de <head> não são exibidos diretamente na página, mas são essenciais para o funcionamento e a otimização do site.
+
+    <meta charset="UTF-8">:
+
+Definição: Define a codificação de caracteres do documento.
+Função: UTF-8 é uma codificação que suporta quase todos os caracteres e símbolos do mundo, garantindo que caracteres especiais, como acentos, sejam exibidos corretamente.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">:
+Definição: Controla a escala e as dimensões da página na tela do dispositivo.
+Função: Configura a largura da viewport para corresponder à largura do dispositivo, tornando o layout adaptável e responsivo em dispositivos móveis.
+
+<meta name="description" content="Projeto Portfólio">:
+Definição: Fornece uma descrição breve e concisa do conteúdo da página.
+Função: Muito útil para SEO (otimização para motores de busca), pois essa descrição pode aparecer nos resultados de busca.
+
+<meta name="author" content="Generation Brasil">:
+Definição: Especifica o autor do documento.
+Função: Fornece informações sobre quem criou ou é responsável pelo conteúdo da página.
+meta name="keywords" content="HTML, CSS, JavaScript">:
+Definição: Lista de palavras-chave relevantes ao conteúdo da página.
+Função: Antigamente era usada para SEO, mas hoje em dia sua importância diminuiu consideravelmente, pois motores de busca dão mais atenção ao conteúdo real da página.
+
+<link rel="icon" href="./assets/img/favicon.svg" />:
+Definição: Define o favicon, que é o pequeno ícone exibido na aba do navegador ao lado do título da página.
+Função: Um favicon ajuda na identificação rápida da página entre várias abas abertas no navegador.
+
+<title>Universe</title>:
+Definição: Define o título da página.
+Função: Este título é exibido na aba do navegador e nos resultados de busca, sendo um elemento importante para SEO.
+    -->
+
+<body>
+    <!--Definição: Contém todo o conteúdo visível da página web.
+Função: Tudo o que aparece dentro da tag <body> é renderizado pelo navegador e exibido para o usuário. -->
+
+
+    <header>
+        <div id="header_content">
+            <div id="titulo">
+                <a href="#">Universe</a>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contate-me</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Definição: Tag semântica usada para definir o cabeçalho da página ou de uma seção.
+Função: Normalmente, contém elementos como logotipo, título da página e menus de navegação. Melhora a acessibilidade, pois ferramentas de leitura de tela reconhecem <header> como o cabeçalho do conteúdo.
+
+    <div>:
+Definição: Um contêiner genérico que agrupa elementos de bloco.
+Função: Muito utilizado para estruturar o layout da página. O atributo id fornece um identificador único, permitindo a aplicação de estilos ou scripts específicos a esse elemento.
+
+<a href="#">:
+Definição: Tag de âncora usada para criar links.
+Função: O atributo href="#" especifica o destino do link. Neste caso, o símbolo # faz o link apontar para o topo da página ou para uma âncora específica dentro dela.
+
+<nav>:
+Definição: Tag semântica usada para definir um bloco de navegação.
+Função: Agrupa links de navegação, como menus de site. Sua utilização melhora a acessibilidade, já que navegadores e leitores de tela identificam <nav> como uma área de navegação.
+
+    <ul>:
+Definição: Define uma lista não ordenada (com marcadores).
+Função: Agrupa itens de lista <li>, que podem ser links ou outros conteúdos.
+
+    <li>:
+Definição: Um item de uma lista.
+Função: Cada <li> representa um item na lista não ordenada <ul>. -->
+
+
+    <main>
+        <section id="home">
+            <article id="home_texto">
+                <h4>Bem-vindo ao Novo Universo</h4>
+                <h1>Mundos diferentes para pessoas diferentes</h1>
