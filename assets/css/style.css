@@ -189,7 +189,7 @@ form button {
 
 /* Footer */
 footer {
-    background-color: var(--purple-800);
+    background-color: var(#493A97);
     padding: 1rem;
     text-align: center;
     color: var(--white);
